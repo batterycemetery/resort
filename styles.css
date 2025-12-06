@@ -1,0 +1,89 @@
+:root {
+    /* Color Theme Swatches in Hex */
+
+    --v-lt-grn: #C1D4D1;
+    --lt-grn: #BFD4C5; 
+    --gry-grn: #C6D5D2; 
+    --blue: #79ACD9; 
+    --lt-blue: #A7D5F2; 
+    --pale-pk: #EFF8FF; 
+    --bb-pink: #FFF0FB; 
+    --fonts: 'Noto Sans', Arial, sans-serif;
+
+}
+
+body {
+    width: 1440px;
+    font-family: var(--fonts);
+    background-color: var(--pale-pk);
+    margin: 0 auto;
+    line-height: 1.5rem;
+}
+
+header, main, footer {
+    background-color:var(--lt-blue);
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+header {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color:#3f4ea3;
+
+}
+
+
+
+nav {
+    padding-left: 3rem;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 2rem;
+    padding: 0;
+}
+
+nav li {
+    width: 275px;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding: .75rem;
+    margin: 0 1rem;
+    color: #3F4EA3;
+    background-color: var(--bb-pink);
+    border-radius: 9pt;
+    box-shadow: 5px 5px 10px rgba(63, 78, 163, 0.3);
+    transition: all 500ms;
+
+}
+
+
+nav a:hover {
+    background-color: #3f4ea3; 
+    color: var(--bb-pink);
+    box-shadow: 5px 5px 10px rgba(63, 78, 163, 0.4);
+
+
+}
+
+
